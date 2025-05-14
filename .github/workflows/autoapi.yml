@@ -20,7 +20,8 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-        pip install -r requirements.txt
+        pip install requests
+        pip install pytz
         pip install PyNaCl
 
     - name: Run E5 Renew Script
