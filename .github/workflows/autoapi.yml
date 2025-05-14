@@ -12,6 +12,7 @@ on:
     - cron: '0 */6 * * *'
   watch:
     types: [started]
+      workflow_dispatch:
    
 jobs:
    Task:
